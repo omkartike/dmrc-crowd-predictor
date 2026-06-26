@@ -1,1 +1,22 @@
 model/model.pkl
+
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Large data file — don't commit this
+data/ridership.csv
+
+# DO commit model.pkl — Railway needs it
+# model/model.pkl  ← intentionally NOT ignored
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
